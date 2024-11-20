@@ -1,0 +1,224 @@
+.main-top{
+    padding-top: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    padding-bottom: 10px;
+}
+
+.order-quote{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+
+
+}
+
+.order-button{
+    background-color: #e4002b;
+    color: white;
+    border: 0;
+    height: 38px;
+    border-radius: 24px;
+    width: 130px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#main-image-div{
+    background-color: #e91010;
+}
+#main-image{
+    height: 417px;
+    
+}
+
+.browse-section{
+    
+    margin-top: 56px;
+    margin-left: 205px;
+    margin-right: 123px;
+   
+
+}
+
+.browse-section-heading{
+    display:inline;
+    margin-right: 5px;
+    font-weight: 800;
+    font-size: 26px;
+   
+    /* font-stretch: m; */
+    
+ 
+}
+
+.horizontal-line{
+    float: right;
+    border-top: 1px solid #e3e3e3;
+    
+    width: 70%;
+    margin-left: 26px;
+
+   
+}
+
+/* category section start here  */
+
+.Category-card-div{ 
+    margin-top: 41px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 17px;
+    row-gap: 17px;
+    
+}
+
+.Category-card{
+    background-color: #f8f7f5;
+}
+
+.Category-img{
+    width: 284px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.Category-card-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 900;
+    /* background-color: #f8f7f5; */
+    padding-top: 12px;
+    padding-bottom: 15px;
+    
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* offer section starts here  */
+.offer-section-div{
+    background-color: #202124;
+        margin-top: 65px;
+        padding-bottom: 15px;">
+}
+
+.offer-section-main-div{
+    margin-left: 175px;
+    background-color: #202124;
+    margin-right: 114px;
+}
+
+.rectangle{
+    display: inline-block;
+    height: 44px;
+    width: 16px;
+    background-color: red;
+    margin-right: 7px;
+    margin-bottom: 15px;
+
+}
+
+.offer-view-all-details-div{
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+}
+
+.offer-right-arrow{
+    border-radius: 50%;
+    background-color: #6c6b6b;
+    height: 43px;
+    width: 76px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.offer-left-arrow{
+    margin-top: 183px;
+    margin-left: 250px;
+    position: absolute;
+    height: 40px;
+    opacity: .9;
+    width: 40px;
+    background-color: white;
+}
+
+.offer-card-main-div{
+    display: grid;
+    align-content: center;
+    
+}
+.offer-card-div{
+    overflow: hidden;
+    display: flex;
+    column-gap: 17px;
+    background-color: #202124;
+    color: black;
+    margin-left: 26px;
+
+}
+.offer-img{
+   
+    height: 245px;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+   
+
+}
+.offer-card-text{
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.offer-card-para{
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 5px;
+    font-weight: 400;
+}
+
+.offer-card-button-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2px;
+    padding-bottom: 15px;
+}
+.offer-view-details{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #494949;
+}
+.offer-button{
+    background-color: white;
+    border: 1px solid #494949;
+    /* height: 20px; */
+    padding: 11px 40px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.offer-card-heading{
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+
+}
+
+.offer-line-section{
+    margin: 55px 134px;
+    display: grid ; 
+    grid-template-columns: 78px 1fr;
+}

@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header section starts here  */
+.header-section{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.header{
+    
+    text-align: center;
+    
+    font-size: 14px;
+    padding: 7px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+
+.location-image{
+    height: 9px;
+    margin-right: 3px;
+}
+
+.location-button{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: 11px;
+    padding: 11px 12px;
+    font-weight: 700;
+    margin-left: 13px;
+}
+
+.header2{
+    
+    /* background-color: blueviolet; */
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 83px;
+    
+    
+}
+
+.header2-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 201px;
+    color: black;
+}
+
+
+.kfc-logo{
+    height: 20px;
+}
+
+.header2-right{
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    width: 183px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.v-line{
+    border-left: 1px solid #e3e3e3;
+    height: 20px;
+}
+
+.img-profile{
+    height: 20px;
+
+}
+.img-bucket{
+    height: 57px;
+}

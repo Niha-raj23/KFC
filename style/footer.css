@@ -1,0 +1,48 @@
+.footer-section{
+    background-color: #202124; 
+    padding-top: 40px;
+}
+
+
+.footer-main-div{
+    justify-content: space-between;
+    background-color: #202124;
+    padding: 40px 89px;
+    display: flex;
+    font-size: 13px;
+    color: white;
+    line-height: 27px;
+    font-weight: 500;
+}
+.footer-copyright{
+    color: #dbdbdb;
+    opacity: 0.9;
+    font-size: 10px;
+}
+
+.social-media-main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    font-size: 9px;
+    margin-right: 39px;
+}
+
+.social-media-icon{
+    width: 33px;
+}
+
+.footer-kfc-logo{
+    width: 56px;
+    margin-top: -87px;
+    margin-right: 30px;
+}
+
+.footer-bottom-main-div{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 125px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
